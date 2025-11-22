@@ -51,7 +51,7 @@ export function renderContactSection(contactChannels: ContactChannel[]): string 
         <div class="rounded-2xl border border-white/10 bg-slate-900/60 px-6 py-8 shadow-inner sm:p-8">
           <p class="text-sm uppercase tracking-[0.4em] text-cyan-300">Say hello</p>
           <h3 class="mt-2 text-2xl font-semibold text-white">Share a bit about your idea or team.</h3>
-          <form data-contact-form class="mt-6 space-y-5">
+          <form data-contact-form class="mt-6 space-y-5" netlify>
             <div class="space-y-2">
               <label class="text-xs font-semibold uppercase tracking-[0.3em] text-slate-300" for="contact-name">Name</label>
               <input
